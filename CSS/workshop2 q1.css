@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ecf4fb;
+}
+.gallary {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.gallary img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+.gallary img:hover {
+    transform: scale(0.9);
+}
